@@ -3,6 +3,15 @@ server:
 spring:
   application:
     name: course
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+
   jpa:
     show-sql: false
     hibernate:
