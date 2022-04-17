@@ -15,10 +15,30 @@
 	<description>Douglaslpo - Service Discovery - Module Spring </description>
 
 	<properties>
-		<java.version>11</java.version>
-		<spring-cloud.version>2021.0.1</spring-cloud.version>
+		<jaxb-api.version>2.3.1</jaxb-api.version>
+		<jaxb-runtime>4.0.0-M4</jaxb-runtime>
+		<javax-activation.version>1.2.0</javax-activation.version>
 	</properties>
+
 	<dependencies>
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>${jaxb-runtime}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.activation</groupId>
+			<artifactId>javax.activation-api</artifactId>
+			<version>${javax-activation.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>${jaxb-api.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
@@ -26,10 +46,23 @@
 	</dependencies>
 
 	<build>
+		<finalName>discovery</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.1</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
