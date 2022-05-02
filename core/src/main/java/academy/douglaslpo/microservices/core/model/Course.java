@@ -1,4 +1,4 @@
-package academy.douglaslpo.core.model;
+package academy.douglaslpo.microservices.core.model;
 
 import lombok.*;
 

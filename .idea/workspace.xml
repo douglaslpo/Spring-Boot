@@ -5,26 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aeb3ca6-cc46-452a-af4d-96cb256c4842" name="Default Changelist" comment="Create Pom primary, increments libs">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_angus_activation_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_4_0_0_M4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_4_0_0_M4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0dfc5362f3dd5d9dd8e9f6953c2e0c1de838d2e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/340300b88a33f4182b5ee9ca1d704ab2652954d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b316bc60d1cfae51045f6fc8e58a8ae31f03ff3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d487b00303032fccdbd6ba57637f84328b80403" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bd6b26c4b221c18dd2d973820c6d81910ac3345" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76401d80919958a0380f14132adf8b8fc9c3d6ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7901c54bd5629f5296e0a1e80189676ba8b49eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81d5752a6283191b5910170b32ae0893d73f6e53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c02cab3a3d3c89497deea383de10bb5ae1aecc1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d1811ed747611bbdbfc7ac3222a166f9d2471ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aee13d3c197d6ce34c16dd7702bcba02e8333be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac3e1555725512e9cd39c39120cd768bda4aa7b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b852a17260d2168334ca8cc134047d50c5bea826" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2f0f505ba50d13bd59104905b00a085aa7af7a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2588c8dc53164acb2cec56411d91b2686147df5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee790de306f28199794116dac18c79ef6d4ffe98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/academy/douglaslpo/microservices/auth/security/config/SecurityCredentialsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/academy/douglaslpo/microservices/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/academy/douglaslpo/microservices/auth/security/user/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/microservices/core/property/JwtConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/microservices/core/repository/ApplicationUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/microservices/core/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/core/model/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/microservices/core/model/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/core/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/microservices/core/model/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/academy/douglaslpo/microservices/endpoint/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/academy/douglaslpo/microservices/endpoint/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/academy/douglaslpo/microservices/endpoint/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/douglaslpo/microservices/core/model/ApplicationUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/academy/douglaslpo/microservices/endpoint/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/academy/douglaslpo/microservices/endpoint/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/academy/douglaslpo/microservices/endpoint/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/academy/douglaslpo/microservices/endpoint/service/CourseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="27ltgSHgFDsTPWxReG0WENHAvsW" />
   <component name="ProjectViewState">
@@ -57,6 +102,8 @@
       <recent name="C:\Users\douglas\IdeaProjects\Spring-Boot" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="academy.douglaslpo.microservices.core.repository" />
+      <recent name="academy.douglaslpo.microservices.core.model" />
       <recent name="academy.douglaslpo.core.repository" />
     </key>
   </component>
@@ -73,13 +120,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GatewayApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="academy.douglaslpo.microservices.auth.AuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,6 +197,7 @@
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.CourseApplication" />
       <item itemvalue="Spring Boot.ServiceProdutoApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -165,7 +222,10 @@
       <workItem from="1650208445648" duration="13834000" />
       <workItem from="1650321803540" duration="741000" />
       <workItem from="1650481579624" duration="1013000" />
-      <workItem from="1650657834650" duration="460000" />
+      <workItem from="1650657834650" duration="4652000" />
+      <workItem from="1650669017550" duration="586000" />
+      <workItem from="1651422653419" duration="1401000" />
+      <workItem from="1651500727568" duration="5036000" />
     </task>
     <task id="LOCAL-00001" summary="Remodelando pacotes dos microserviços.">
       <created>1649979865664</created>
@@ -209,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650482235820</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create Pom primary, increments libs, create Auth Service.">
+      <created>1650658446965</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650658446966</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +330,8 @@
     <MESSAGE value="Remold Applications, Poms, create MicroService Discovery and unvesioned others files." />
     <MESSAGE value="Remodelando pacotes dos microserviços." />
     <MESSAGE value="Create Pom primary, increments libs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Pom primary, increments libs" />
+    <MESSAGE value="Create Pom primary, increments libs, create Auth Service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Pom primary, increments libs, create Auth Service." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

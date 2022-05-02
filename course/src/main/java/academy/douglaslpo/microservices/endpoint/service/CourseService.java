@@ -1,7 +1,8 @@
 package academy.douglaslpo.microservices.endpoint.service;
 
-import academy.douglaslpo.microservices.endpoint.model.Course;
-import academy.douglaslpo.microservices.endpoint.repository.CourseRepository;
+
+import academy.douglaslpo.microservices.core.model.Course;
+import academy.douglaslpo.microservices.core.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package academy.douglaslpo.microservices.endpoint.controller;
 
-import academy.douglaslpo.microservices.endpoint.model.Course;
+import academy.douglaslpo.microservices.core.model.Course;
 import academy.douglaslpo.microservices.endpoint.service.CourseService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
