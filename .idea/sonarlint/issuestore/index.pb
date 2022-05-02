@@ -405,10 +405,6 @@ v
 F.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml,7\9\7901c54bd5629f5296e0a1e80189676ba8b49eec
 g
 7.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml,3\4\340300b88a33f4182b5ee9ca1d704ab2652954d4
-=
-core/core.iml,8\c\8c02cab3a3d3c89497deea383de10bb5ae1aecc1
-<
-core/pom.xml,7\6\76401d80919958a0380f14132adf8b8fc9c3d6ea
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ?
